@@ -47,5 +47,3 @@ const Navbar = () => {
 }
 
 export default Navbar
-console.log('https://youtu.be/I2UBjN5ER4s?si=szuZA1k9PZ8xyZI1&t=1436')
-estoy cansado jefe
