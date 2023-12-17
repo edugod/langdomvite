@@ -20,9 +20,15 @@ function Navbar() {
 
   useEffect(() => {
     showButton();
+    // Adiciona o evento de redimensionamento quando o componente é montado
+    window.addEventListener('resize', showButton);
+
+    // Função de limpeza para desinscrever o evento quando o componente é desmontado
+    return () => {
+      window.removeEventListener('resize', showButton);
+    };
   }, []);
 
-  window.addEventListener('resize', showButton);
 
   return (
     <>
