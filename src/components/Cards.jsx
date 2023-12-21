@@ -39,6 +39,3 @@ const Cards = () => {
 }
 
 export default Cards
-
-console.log('teste')
-nao estou dando conta dessa vida =(
