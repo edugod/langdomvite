@@ -39,3 +39,5 @@ const Cards = () => {
 }
 
 export default Cards
+
+console.log('teste')
