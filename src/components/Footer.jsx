@@ -61,7 +61,7 @@ function Footer() {
 							<i class='fab fa-typo3' />
 						</Link>
 					</div>
-					<small class='website-rights'>TRVL © 2020</small>
+					<small className='website-rights'>TRVL © 2020</small>
 					<div class='social-icons'>
 						<Link class='social-icon-link facebook' to='/' target='_blank' aria-label='Facebook'>
 							<i class='fab fa-facebook-f' />
